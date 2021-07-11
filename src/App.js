@@ -1,6 +1,5 @@
 import logo from './logo.svg';
 import './App.css';
-
 import React from 'react';
 // page components
 import About from './components/About';
@@ -13,15 +12,15 @@ import Footer from './components/Footer';
 
 function App() {
   return (
+
     <div>
       <Header></Header>
       <main>
-         {/* <Switch>
-         <Route exact path="/" component={Home} />
-         </Switch> */}
+
       </main>
-      <Footer></Footer>
+      <Footer className = 'my-5 mx-5'></Footer>
     </div>
+
   );
 }
 

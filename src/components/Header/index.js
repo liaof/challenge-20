@@ -4,7 +4,7 @@ import coverImage from '../../assets/cover/1.jpg';
 function Header () {
     return (
         
-        <section className='flex-row space-between my-3 center'>
+        <section className='flex-row space-between my-3 align-center'>
             
             <h1 className='mx-3'><a href='/' id='header'>Fanxi Liao - Web Dev</a></h1>
             

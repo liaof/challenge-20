@@ -11,6 +11,7 @@ main {
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
+  --dark-glass:rgba(0,0,0,.5);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -249,12 +250,15 @@ textarea {
 .flex-end {
   justify-content: flex-end;
 }
+.flex-center {
+  justify-content: center;
+}
 
-.end {
+.align-end {
   align-items: flex-end;
 }
 
-.center {
+.align-center {
   align-items: center;
 }
 
@@ -320,5 +324,14 @@ button {
 /* components/Header */
 #header{
   color: white;
+}
+
+#footer{
+  background-color: var(--dark-glass);
+  width: 100%;
+  text-align: center;
+  position:absolute;
+  left: 0;
+  bottom: 0;
 }
 

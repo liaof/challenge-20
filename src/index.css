@@ -11,6 +11,7 @@ main {
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
+  --dark-glass:rgba(0,0,0,.5);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -39,10 +40,9 @@ body {
   color: var(--light);
   font-family: Arial, Helvetica, sans-serif;
   background-image: url('./assets/cover/1.jpg');
-  background-size: cover;
-
-
+  background-size: none;
 }
+
 /* Background colors*/
 /* horizontal margin */
 .mx-1 {
@@ -182,6 +182,7 @@ img {
 
 span[role="img"] {
   cursor: default;
+
 }
 
 form {
@@ -214,9 +215,8 @@ nav  li {
   cursor: pointer;
 }
 
-nav a{
+nav span{
   border-radius: 5px;
-
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
@@ -319,6 +319,29 @@ button {
 
 /* components/Header */
 #header{
+  background-image: url('./assets/cover/1.jpg');
+  background-size: none;
+}
+#header-title{
   color: white;
 }
+
+#footer{
+  background-color: var(--dark-glass);
+  width: 100%;
+  text-align: center;
+  position:absolute;
+  left: 0;
+  bottom: 0;
+}
+
+#navbar{
+  background-color: rgba(255,255,255,0.3);
+  border-radius:5px;
+  padding: 8px;
+}
+
+
+
+
 

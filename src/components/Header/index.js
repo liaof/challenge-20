@@ -9,7 +9,7 @@ function Header (props) {
         currentCategory} = props;
 
     useEffect(()=>{
-        document.title=currentCategory;
+        document.title=capitalizeFirstLetter(currentCategory);
     },[currentCategory]);
     
     function test(name){

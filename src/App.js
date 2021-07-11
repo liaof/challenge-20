@@ -6,8 +6,9 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Contact from './components/Contact';
 import Header from './components/Header';
-import ProjectGallery from './components/ProjectGallery';
+import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
+import { capitalizeFirstLetter } from './utils/helpers';
 
 
 function App() {
@@ -23,10 +24,22 @@ function App() {
         setCurrentCategory={setCurrentCategory}
         currentCategory={currentCategory}
       ></Header>
+   
       <main>
-         {/* <Switch>
-         <Route exact path="/" component={Home} />
-         </Switch> */}
+        <p>{capitalizeFirstLetter(currentCategory)}</p>
+        {currentCategory==='about' ? (
+          <> 
+            <About></About>
+          </> 
+        ) : currentCategory==='portfolio' ? (
+          <Portfolio></Portfolio>
+        ) : currentCategory==='resume'? (
+          <div>RESUMAYYYY</div>
+        ) : (
+          <Contact></Contact>
+        )}
+         
+        
       </main>
       <Footer></Footer>
     </div>

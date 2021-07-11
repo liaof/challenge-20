@@ -40,10 +40,9 @@ body {
   color: var(--light);
   font-family: Arial, Helvetica, sans-serif;
   background-image: url('./assets/cover/1.jpg');
-  background-size: cover;
-
-
+  background-size: none;
 }
+
 /* Background colors*/
 /* horizontal margin */
 .mx-1 {
@@ -183,6 +182,7 @@ img {
 
 span[role="img"] {
   cursor: default;
+
 }
 
 form {
@@ -215,9 +215,8 @@ nav  li {
   cursor: pointer;
 }
 
-nav a{
+nav span{
   border-radius: 5px;
-
 	font-weight: 600;
 	padding: 2px 4px;
 	margin-left: -2px;
@@ -264,8 +263,15 @@ textarea {
 
 
 .card {
-  width: 25%;
   text-align: center;
+  box-shadow: 0px 0px 15px 15px rgba(0,0,0,.2);
+  transition: 0.3s;
+  background-color: rgba(255,255,255,.13); 
+  border-radius: 5px;
+}
+
+.container {
+  padding: 2px 16px;
 }
 
 .img-thumbnail {
@@ -323,6 +329,10 @@ button {
 
 /* components/Header */
 #header{
+  background-image: url('./assets/cover/1.jpg');
+  background-size: none;
+}
+#header-title{
   color: white;
 }
 
@@ -334,4 +344,14 @@ button {
   left: 0;
   bottom: 0;
 }
+
+#navbar{
+  background-color: rgba(255,255,255,0.25);
+  border-radius:5px;
+  padding: 8px;
+}
+
+
+
+
 

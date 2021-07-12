@@ -1,7 +1,7 @@
 
 main {
 	margin: 0 auto;
-	max-width: 90%;
+	max-width: 100%;
   padding-top: 125px;
 }
 :root {
@@ -11,7 +11,7 @@ main {
   --light: #fafafa;
   --dark: #000000;
   --darker: #111111;
-  --dark-glass:rgba(0,0,0,.35);
+  --dark-glass:rgba(0,0,0,.45);
   --error: rgb(228, 46, 1);
   --spacing-one: calc(1rem * 0.5);
   --spacing-two: calc(1rem);
@@ -27,7 +27,7 @@ main {
 html,
 body {
   min-height: 100%;
-  padding: 50px 30px;
+  /* padding: 50px 30px; */
  
 }
 
@@ -119,11 +119,11 @@ body {
 /* fonts */
 h1,h2,h3,h4,h5,h6 {
   font-family: Arial, Helvetica, sans-serif;
-  font-weight: bold;
   margin: 5px 0;
   line-height: 1.25;
 }
 h1 {
+  font-weight: bold;
   font-size: 2.7rem;
 }
 h2 {
@@ -133,6 +133,7 @@ h3 {
   font-size: 1.75rem;
 }
 h4 {
+  margin-top: 15px;
   font-size: 1.5rem;
 }
 h5 {
@@ -151,11 +152,10 @@ a {
   text-decoration: none;
   font-family: Verdana, Geneva, sans-serif;
 }
+
 a:hover {
-  text-decoration: underline;
+  color: var(--secondary);
 }
-
-
 
 button {
   font-size: 1rem;
@@ -175,16 +175,7 @@ button:hover {
 
 button[disabled] {
   cursor: default;
-  opacity: .8;
-}
-
-img {
-  max-width: 100%;
-}
-
-span[role="img"] {
-  cursor: default;
-
+  opacity: .5;
 }
 
 form {
@@ -209,18 +200,14 @@ li {
   list-style: none;
 }
 /* nav components */
-nav a:hover {
-  text-decoration: none;
-}
 
-nav  li {
+nav li {
   cursor: pointer;
 }
 
 nav span{
   text-align: center;
 	font-weight: 600;
-
 }
 
 #navbar{
@@ -233,10 +220,11 @@ nav span{
 }
 
 textarea {
-	width: 600px;
-	height: 120px;
+	width: 100%;
+	height: 200px;
 	border: 3px solid #cccccc;
 	padding: 5px;
+  border-radius: 5px;
 }
 
 .container {
@@ -249,6 +237,12 @@ textarea {
 .flex-row {
   display: flex;
   flex-wrap: wrap;
+}
+
+.flex-column {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
 }
 
 .space-between {
@@ -288,9 +282,17 @@ textarea {
   box-shadow: 0px 0px 3px 3px var(--dark-glass);
   transition: 0.3s; 
   border-radius: 5px;
-  margin-right: 30px;
-  width: 40%;
+  margin: 20px 5px;
+  width: 45%;
   height: fit-content;
+}
+
+.card a {
+  margin: 5px;
+}
+
+.card p {
+  font-weight: 100;
 }
 
 .container {
@@ -367,21 +369,38 @@ button {
 }
 
 #footer{
-  background-color: var(--dark-glass);
+  background-color: rgba(0, 0, 0,.75);
   width: 100%;
   text-align: center;
   position: fixed;
   bottom: 0;
   left: 0;
+  padding: 10px 0px 5px 0px;
 }
 
 
+#contact-form{
+  width: 50%;
+  margin: auto;
+}
+#contact-form div{
+  margin-bottom: 10px;
+}
 section{
   text-align: center;
 }
 
 section h2{
   color: var(--secondary);
+}
+
+#my_portrait{
+  border-style: solid;
+  border-color: var(--dark-glass);
+  border-width: 10px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  width: 35%;
 }
 
 

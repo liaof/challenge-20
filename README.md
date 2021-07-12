@@ -25,3 +25,4 @@ Icons on the page are linked to the github page/ deployed site of each individua
 - react</br>
 - react-icons</br>
 - react-dom</br>
+- gh-pages</br>

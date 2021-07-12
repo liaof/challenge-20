@@ -4,7 +4,7 @@ import coverImage from '../../assets/cover/1.jpg';
 function Contact () {
     return (
         <section className="my-5">
-            <h1 id="about">Contact</h1>
+            <h2 className='py-1'>Contact</h2>
             <p></p>
         </section>
       );

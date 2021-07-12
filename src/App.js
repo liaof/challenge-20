@@ -19,7 +19,7 @@ function App() {
 
   return (
 
-    <div>
+    <div className ='px-3'>
       <Header
         categories={categories}
         setCurrentCategory={setCurrentCategory}
@@ -27,7 +27,6 @@ function App() {
       ></Header>
    
       <main>
-        <p>{capitalizeFirstLetter(currentCategory)}</p>
         {currentCategory==='about' ? (
           <> 
             <About></About>

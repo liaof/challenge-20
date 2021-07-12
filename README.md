@@ -13,11 +13,12 @@ in turn is used to determine which page's components should be rendered. This ty
 After downloading the files and installing the npm packages, run 'npm run start' in your command line
 
 ### Screenshots
-!['./screenshots/inputcheck.png'](Input Validation)</br>
+![Input Validation]('./screenshots/inputcheck.png')</br>
 This picture shows the input validation on the contact forms; if the user clicks off the form without making a valid input, an error message detailing the exact problem will appear</br></br>
-![./screenshots/currentcategory.png'](Current Category Highlighted)</br>
+![Current Category Highlighted](./screenshots/currentcategory.png')</br>
 The utlization of useState allows the program to highlight the currently active category in the navigation bar</br></br>
-![./screenshots/applink.png'](Link to Projects) ![./screenshots/gitlink.png'](Link to 3rd party profiles)</br>
+![Link to Projects]('./screenshots/applink.png') </br>
+![Link to 3rd party profiles]('./screenshots/gitlink.png')</br>
 Icons on the page are linked to the github page/ deployed site of each individual project, as well as a couple of my 3rd party profiles
 
 #### Tech Used</br>

@@ -1,8 +1,10 @@
 import React, { useState } from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
+import Project from '../Project';
 
 
-function About () {
+
+function Portfolio () {
 
     const [projects] = useState([
         {
@@ -80,7 +82,7 @@ function About () {
         <section className="my-5 content-wrap">
             <h2 className='py-1'>My Portfolio</h2>
             <div className="flex-row space-evenly">          
-                {projects.map((project,i) => (
+                {projects.map((currentProject,i) => (
                 // //     <div>
                 // // {/* <img
                 // //     src={require(`../../assets/small/${category}/${i}.jpg`).default}// the photos have the same name as the loop index, so we use the latter
@@ -97,13 +99,7 @@ function About () {
                 // //     </div>
                 
                 // //     </div>
-                <a href ={project.url} className=' card my-2 center' >
-
-                        <h4>{capitalizeFirstLetter(project.name)}</h4>
-                        <div className='container'>
-                            <p>{project.description}</p>
-                        </div>
-                    </a>
+                    <Project project={currentProject}></Project>
                 ))}
       </div>
             
@@ -111,4 +107,4 @@ function About () {
       );
 }
 
-export default About;
+export default Portfolio;

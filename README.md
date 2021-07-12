@@ -1,70 +1,26 @@
-# Getting Started with Create React App
+# React Portfolio
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## [Deployed Application](https://liaof.github.io/challenge-20/)
 
-## Available Scripts
+## Summary
+This week's project entails using React to build a portfolio. Previously in the course, we had been tasked to make a portfolio. However, because that was one of the very first projects 
+given to us, naturally the level of skill that went into the first portfolio is much lower; that portfolio was served with completely hardcoded HTML files.
 
-In the project directory, you can run:
+Using React, we are able to make a single page application which instead of reloading to a new page everytime the user wants to navigate somewhere, the links of the page simply set the url which
+in turn is used to determine which page's components should be rendered. This type of web experience is advantageous when users have patchy internet; because the entire site is accessed all at once, a user only needs to connect to it a single time to be able to access any page while offline.
 
-### `npm start`
+### Usage
+After downloading the files and installing the npm packages, run 'npm run start' in your command line
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+### Screenshots
+!['./screenshots/inputcheck.png'](Input Validation)</br>
+This picture shows the input validation on the contact forms; if the user clicks off the form without making a valid input, an error message detailing the exact problem will appear</br></br>
+![./screenshots/currentcategory.png'](Current Category Highlighted)</br>
+The utlization of useState allows the program to highlight the currently active category in the navigation bar</br></br>
+![./screenshots/applink.png'](Link to Projects) ![./screenshots/gitlink.png'](Link to 3rd party profiles)</br>
+Icons on the page are linked to the github page/ deployed site of each individual project, as well as a couple of my 3rd party profiles
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+#### Tech Used</br>
+- react</br>
+- react-icons</br>
+- react-dom</br>

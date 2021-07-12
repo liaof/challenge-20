@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { validateEmail, capitalizeFirstLetter } from '../../utils/helpers';
-import { FaForward,FaPlay,FaGithubAlt } from "react-icons/fa";
+
 
 
 //formState reflects whatever string you have in the input box at any given moment, regardless of if it was submitted or not

@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/challenge-20/static/css/main.3a69d902.chunk.css",
+    "main.js": "/challenge-20/static/js/main.2a712f2f.chunk.js",
+    "main.js.map": "/challenge-20/static/js/main.2a712f2f.chunk.js.map",
+    "runtime-main.js": "/challenge-20/static/js/runtime-main.46abfd52.js",
+    "runtime-main.js.map": "/challenge-20/static/js/runtime-main.46abfd52.js.map",
+    "static/js/2.abf0d2ab.chunk.js": "/challenge-20/static/js/2.abf0d2ab.chunk.js",
+    "static/js/2.abf0d2ab.chunk.js.map": "/challenge-20/static/js/2.abf0d2ab.chunk.js.map",
+    "static/js/3.e751c764.chunk.js": "/challenge-20/static/js/3.e751c764.chunk.js",
+    "static/js/3.e751c764.chunk.js.map": "/challenge-20/static/js/3.e751c764.chunk.js.map",
+    "index.html": "/challenge-20/index.html",
+    "static/css/main.3a69d902.chunk.css.map": "/challenge-20/static/css/main.3a69d902.chunk.css.map",
+    "static/js/2.abf0d2ab.chunk.js.LICENSE.txt": "/challenge-20/static/js/2.abf0d2ab.chunk.js.LICENSE.txt",
+    "static/media/index.css": "/challenge-20/static/media/1.f818f1ea.jpg",
+    "static/media/logo.6ce24c58.svg": "/challenge-20/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.46abfd52.js",
+    "static/js/2.abf0d2ab.chunk.js",
+    "static/css/main.3a69d902.chunk.css",
+    "static/js/main.2a712f2f.chunk.js"
+  ]
+}

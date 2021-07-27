@@ -1,6 +1,6 @@
 # React Portfolio
 
-## [Deployed Application](https://liaof.github.io/challenge-20/)
+## [Deployed Application](https://liaof.github.io/portfolio/)
 
 ## Summary
 This week's project entails using React to build a portfolio. Previously in the course, we had been tasked to make a portfolio. However, because that was one of the very first projects 

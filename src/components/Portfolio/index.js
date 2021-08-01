@@ -43,6 +43,12 @@ function Portfolio () {
             git_url: "https://github.com/liaof/challenge-19",
             url: "https://gorgeous-channel-islands-72248.herokuapp.com/"
         },
+        {
+            name: "Fullstack Project - Puppy Love",
+            description: "This weeks project entails is a full-stack group project. The task we chose was to build a social media platform focused on connecting dogs and their owners to other dogs and their owners.",
+            git_url: "https://github.com/MAsuamah/puppy-love/tree/main",
+            url: "https://puppy-love-date.herokuapp.com/"
+        }
     ]);
 
     return (

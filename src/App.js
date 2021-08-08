@@ -8,8 +8,7 @@ import Contact from './components/Contact';
 import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
-import { Document, Page, pdfjs } from "react-pdf";
-import { FaFileExcel } from 'react-icons/fa';
+import { Document, Page, pdfjs } from 'react-pdf';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function App() {

@@ -410,12 +410,13 @@ section h2{
   margin-left: 100px;
 }
 
-.react-pdf_Page_canvas{
-  margin-left: 350px;
-  display: flex;
-  justify-content: center;
-}
-
+.react-pdf__Page__canvas {
+  margin: 0 auto;
+  z-index: -1;
+  position: relative;
+  /* //width: 80% !important;
+  height: 100% !important;*/
+} 
 
 
 

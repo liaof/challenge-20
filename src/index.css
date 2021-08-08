@@ -406,6 +406,17 @@ section h2{
   width: 35%;
 }
 
+#pdf-page{
+  margin-left: 100px;
+}
+
+.react-pdf_Page_canvas{
+  margin-left: 350px;
+  display: flex;
+  justify-content: center;
+}
+
+
 
 
 

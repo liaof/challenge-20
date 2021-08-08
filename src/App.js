@@ -9,14 +9,18 @@ import Header from './components/Header';
 import Portfolio from './components/Portfolio';
 import Footer from './components/Footer';
 import { Document, Page, pdfjs } from "react-pdf";
+import { FaFileExcel } from 'react-icons/fa';
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
 function App() {
-
+  pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
   const [categories] = useState(['about','portfolio','resume','contact']);
   //const [currentCategory, setCurrentCategory] = useState(categories[0]);
   const [currentCategory, setCurrentCategory] = useState(categories[0]);
-
+  const pageNum = 1;
+  const styles = {
+    display: 'flex'
+  }
   return (
 
     <div className ='px-3'>
@@ -37,9 +41,9 @@ function App() {
           <section className="my-5 content-wrap">
             <h2 className='py-1'>Resume</h2>
             <Document
-              file='/Resume.pdf'
+              file='/portfolio/Resume.pdf'
             >
-              <Page></Page>
+              <Page pageNumber={pageNum} style={{display:'flex'}}></Page>
             </Document>
 
           </section>

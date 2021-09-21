@@ -12,12 +12,6 @@ function Header (props) {
         document.title=capitalizeFirstLetter(currentCategory);
     },[currentCategory]);
     
-    function test(name){
-        console.log(name);
-    }
-
-
-    
     return (
         <section className=' py-5 px-5' id='header'>
             <h1 className='my-2 '><a href='/' id='header-title'>Fanxi Liao - Web Dev</a></h1>

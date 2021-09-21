@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { capitalizeFirstLetter } from "../../utils/helpers";
 import Project from '../Project';
 
 

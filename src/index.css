@@ -411,12 +411,16 @@ section h2{
 }
 
 .react-pdf__Page__canvas {
-  margin: 0 auto;
+  margin: 0 auto 60px auto;
   z-index: -1;
   position: relative;
   /* //width: 80% !important;
   height: 100% !important;*/
 } 
+.react-pdf__Page__canvas:hover{
+  height:100%;
+  width:100%;
+}
 
 
 

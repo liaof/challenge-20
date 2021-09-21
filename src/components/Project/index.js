@@ -1,6 +1,6 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { capitalizeFirstLetter } from "../../utils/helpers";
-import { FaForward,FaPlay,FaGithubAlt } from "react-icons/fa";
+import { FaPlay,FaGithubAlt } from "react-icons/fa";
 function Project ({project}) {
 
 
